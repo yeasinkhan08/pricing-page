@@ -43,6 +43,7 @@ a {
   font-style: italic;
 }
 .card-container {
+  gap: 5px;
   color: aliceblue;
   display: flex;
   flex-direction: row;
