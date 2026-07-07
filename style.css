@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+nav {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-logo,
+img {
+  width: 60px;
+  height: auto;
+}
+
+.right-nav,
+ul,
+a {
+  list-style: none;
+  color: aliceblue;
+  margin-right: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+.card h1 {
+  font-size: 3.5rem;
+  margin-top: 15px;
+  font-family: "poppins", sans-serif;
+}
+.card h2 {
+  margin-top: 10px;
+  font-size: 1.9rem;
+  font-style: italic;
+}
