@@ -201,3 +201,20 @@ tbody tr:hover {
 .contact-bar button:hover {
   background-color: gray;
 }
+
+/* card hover  */
+.basic:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 12px 25px rgba(245, 2, 144, 0.973);
+  cursor: pointer;
+}
+.standard:hover {
+  transform: translateY(-50px);
+  box-shadow: 0 12px 25px rgba(211, 120, 1, 0.993);
+  cursor: pointer;
+}
+.Premium:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 12px 25px rgba(149, 1, 248, 0.945);
+  cursor: pointer;
+}
