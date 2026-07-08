@@ -48,7 +48,7 @@ li {
   font-style: italic;
 }
 .card-container {
-  gap: 5px;
+  gap: 10px;
   color: aliceblue;
   display: flex;
   flex-direction: row;
@@ -64,19 +64,26 @@ li {
   list-style: none;
 }
 .basic button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-top: 20px;
   padding: 5px;
 }
 .basic ul {
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
   padding: 5px;
 }
 .basic ul li {
+  font-weight: bold;
   margin-top: 13px;
 }
 
 .basic button:hover {
-  background-color: rgb(243, 146, 1);
+  background-color: rgb(243, 57, 1);
 }
 .basic h2 {
   margin-top: 30px;
@@ -96,15 +103,18 @@ li {
   padding: 5px;
 }
 .standard ul {
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
   padding: 5px;
 }
 .standard ul li {
+  font-weight: bold;
   margin-top: 13px;
 }
 
-.standrd button:hover {
-  background-color: rgba(243, 146, 1, 0.897);
+.standard button:hover {
+  background-color: rgb(243, 78, 1);
 }
 .standard h2 {
   margin-top: 30px;
@@ -123,11 +133,14 @@ li {
   padding: 5px;
 }
 .Premium ul {
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
   padding: 5px;
 }
 .Premium ul li {
   margin-top: 13px;
+  font-weight: bold;
 }
 
 .Premium button:hover {
@@ -217,4 +230,21 @@ tbody tr:hover {
   transform: translateY(-20px);
   box-shadow: 0 12px 25px rgba(149, 1, 248, 0.945);
   cursor: pointer;
+}
+table:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(124, 113, 131, 0.945);
+  cursor: pointer;
+}
+
+.second-badge {
+  position: absolute;
+  bottom: 20px;
+
+  background: red;
+  border-radius: 20px;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  right: 10px;
 }
