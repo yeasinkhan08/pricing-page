@@ -173,8 +173,31 @@ td {
   text-align: center;
 }
 tbody tr:nth-child(even) {
-  background-color: rgb(160, 114, 28);
+  background-color: rgb(95, 63, 2);
 }
 tbody tr:hover {
   background-color: darkred;
+}
+.contact-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 90px;
+  background: #222;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-bar button {
+  padding: 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-bar button:hover {
+  background-color: gray;
 }
