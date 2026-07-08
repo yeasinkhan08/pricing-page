@@ -12,19 +12,23 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.left-logo,
+.nav-logo,
 img {
   width: 60px;
   height: auto;
 }
-
-.right-nav,
+.nav-links,
 ul,
-a {
+li {
+  display: flex;
+}
+
+.nav-links a {
   list-style: none;
   color: aliceblue;
   margin-right: 20px;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 .card-text {
   display: flex;
@@ -148,4 +152,29 @@ a {
   font-weight: bold;
   right: 5px;
   z-index: 3;
+}
+
+table {
+  color: aliceblue;
+  width: 700px;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 120px auto;
+}
+thead {
+  background-color: rgb(170, 0, 43);
+  color: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(160, 114, 28);
+}
+tbody tr:hover {
+  background-color: darkred;
 }
